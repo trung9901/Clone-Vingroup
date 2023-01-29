@@ -1,0 +1,51 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+      .Developments {
+       padding: 0 10px;
+        width: 100%;  
+    }
+  .develop_copy h2{
+    font-size: 38px;
+    padding-top: 20px;
+  }
+  .develop_itemPageWap>div{
+    display: block !important;
+    width: 100%;
+  } 
+  .itemsDevelop{
+      margin-top:20px;
+      height: 400px !important;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+ .Developments {
+       padding: 0 10px;
+        width: 100%;  
+    }
+  .develop_copy h2{
+    font-size: 38px;
+    padding-top: 20px;
+  }
+  .develop_itemPageWap>div{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    width: 100%;
+    margin-top: -50px;
+  } 
+  .itemsDevelop{
+      margin-top:20px;
+      height: 80%;
+      
+       
+  }
+  .itemsDevelop h3{
+       font-size:20px
+       
+  }
+   .itemsDevelop p{
+    font-size:15px
+   }
+
+}

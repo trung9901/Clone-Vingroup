@@ -1,0 +1,38 @@
+.footer{
+    @apply bg-[#f7f7f7] pt-[20px] mt-[50px]
+}
+.row{
+ @apply grid grid-cols-2 leading-8 py-[10px]
+}
+.container{
+    @apply w-[1200px] m-auto px-[10px]
+}
+.right{
+    @apply grid grid-cols-2
+}
+.botFooter{
+    @apply border-t-2 border-[#eee] py-[20px]
+}
+.right ul li a:hover{
+    @apply text-[#003396]
+}
+.botFooter p a:hover{
+     @apply text-[#003396]
+}
+.content p{
+    @apply pb-[20px]
+}
+
+@media screen and (max-width:1024px){
+    .footer{
+        font-size: 13px;
+    }
+ 
+    .content{
+        display: inline-block;
+    }
+   
+    .container{
+        width: 100%;
+    }
+}

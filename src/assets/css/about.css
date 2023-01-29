@@ -1,0 +1,56 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.pIntroduction{
+   @apply w-full max-w-[1200px] px-[10px] mx-auto relative;
+}
+
+.container {
+   @apply relative;
+}
+.content p{
+    @apply italic
+}
+.About-commit{
+    @apply grid grid-cols-3 gap-[30px]
+
+}
+/* .information{
+    @apply visible hover:invisible 
+} */
+.information>div{
+    @apply p-[20px]
+}
+.information p{
+    @apply py-[20px]
+}
+.itemPageWrap ul li h3{
+    @apply text-[38px] text-[#d13138] pt-[25px] font-bold
+}
+.information li:hover{
+    @apply hover:bg-red-600
+}
+.itemPageWrap ul li h3:after{
+    @apply w-[2px] h-[75px] content-[''] inline-block absolute top-[50px] left-[-2px] bg-[#d13138] 
+}
+.itemPageWrap>div ul li div{
+    @apply border-solid border-2 border-stone-300
+}
+.about:hover{
+    @apply bg-red-600 cursor-context-menu transition delay-100
+}
+.about{
+    @apply relative
+}
+.about:hover h3{
+@apply text-white
+}
+.about:hover p{
+@apply text-white
+}
+.about:hover a{
+@apply text-white
+}

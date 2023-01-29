@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+   font-family: riftbold;
+   src: url("../src/assets/font/Rift-Regular.otf");
+}
+
+* {
+   font-family: riftbold !important;
+}
+#about_font p,#aboutcommit_font p,#post_font p{
+    font-family: sans-serif !important;
+}
